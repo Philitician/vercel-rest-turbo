@@ -5,10 +5,12 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "branch-init": "tsx scripts/init-branch.ts"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
+    "tsx": "^4.15.7",
     "turbo": "^2.0.4",
     "typescript": "^5.4.5"
   },

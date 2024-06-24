@@ -12,6 +12,14 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "preview-branch-init": {
+      "cache": false,
+      "interactive": true
+    },
+    "preview-env-sync": {
+      "cache": false,
+      "interactive": true
     }
   }
 }
