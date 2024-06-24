@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "preview-branch-init": "tsx scripts/preview-branch-init.ts --branch"
+    "preview-branch-init": "tsx scripts/preview-branch-init.ts --branch",
+    "branch-init": "pnpm with-env tsx scripts/init-branch/index.ts",
+    "with-env": "dotenv -e .env -e .env.preview --"
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
@@ -23,6 +25,7 @@
     "@types/react-dom": "^18",
     "@types/shelljs": "^0.8.15",
     "@types/yargs": "^17.0.32",
+    "dotenv-cli": "^7.4.2",
     "eslint": "^8",
     "eslint-config-next": "15.0.0-rc.0",
     "shelljs": "^0.8.5",
